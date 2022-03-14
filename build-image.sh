@@ -1,1 +1,1 @@
-docker build . -t nim-gui-app
+docker build . -t nim-cross-compile-env
