@@ -12,10 +12,10 @@ Nimの標準ライブラリを利用するコードは問題なくコンパイ�
 ## コンパイル可能なターゲット
 
 - Linux
-  - arm64/aarch64
-  - amd64/x86_64
+  - arm64/aarch64 : `nim c --os:linux --cpu:arm64 "path"`
+  - amd64/x86_64 : `nim c --os:linux --cpu:amd64 "path"`
 - MaxOSX
-  - arm64/aarch64
-  - amd64/x86_64
+  - arm64/aarch64 : `nim c --os:macosx --cpu:arm64 "path"`
+  - amd64/x86_64 : `nim c --os:macosx --cpu:amd64 "path"`
 - windows
-  - amd64/x86_64
+  - amd64/x86_64 : `nim c --os:windows --cpu:amd64 "path"`
